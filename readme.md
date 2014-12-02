@@ -12,10 +12,6 @@ Base constructor to use with `router` (https://github.com/aquigorka/router)
 
 ###api
 
-**router.init(modules: Array)**
-
-    init router and set modules
-
 **Module(id: String)**
 
     new module instance receives unique id (String) as identifier
