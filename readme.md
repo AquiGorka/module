@@ -1,16 +1,18 @@
-#Module
+# Module
+
 Base constructor to use with `router` (https://github.com/aquigorka/router)
 
 
 `Module` works as a container for ViewControllers and Views
 
 
-##Usage
+## Usage
+
  - route to module and the magic will happen
 
 	    router.routeToModuleId('module-id-1');
 
-###api
+### api
 
 **Module(id: String)**
 
@@ -36,6 +38,6 @@ Base constructor to use with `router` (https://github.com/aquigorka/router)
 
     add module to DOM and give it focus
 
-###build
+### build
 
     browserify src/module.js --standalone Module > dist/module.js
