@@ -30,7 +30,7 @@ Base constructor to use with `router` (https://github.com/aquigorka/router)
 
     set function to execute when an onBack action is received from the router, the callback parameter will continue with normal execution
 
-**onExit(callback: function)
+**onExit(callback: function)**
 
     set function to execute when an onExit action is received from the router, the callback parameter will continue with normal execution
 
